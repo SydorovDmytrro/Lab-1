@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лб №1</title>
+</head>
+<body style="background-color: #FFDEAD;">
+    <header style="text-align: center; "> <h1>Лабораторна робота №1</h1>
+        <div>Основи побудови та публікації HTML-документів</div>
+    </header>
+    <main>
+        <section>
+            <h2>Оформленний текст</h2>
+            <div>Основна <b>тригонометрична тотожність:</b> <i>cos</i><sup>2</sup><b>&#945;</b> + <i>sin</i><sup>2</sup><b>&#945;</b> = 1</div>
+            <div>Приклад суворої нерівності: &#945;&#60;&#946;.</div>
+            Нестрога нерівність &#945;&#8804;&#946; означає, що або &#945;&#60;&#946;, або &#945;=&#946;.
+        </section>
+        <p></p>
+        <section>
+            <h2>Дворівневий список з питаннями та варіантами відповідей</h2>
+            <ol>
+                <li>
+                    <p> З якого курсу ця Лабораторна робота?</p>
+                    <ol type="a">
+                        <li>Моделювання систем</li>
+                        <li>Архітектура комп'ютерів</li>
+                        <li>Інтернет-технології</li>
+                        <li>Системне програмне забезпечення</li>
+                    </ol>
+                </li>
+                <li>
+                    <p> Яка це Лабораторна робота?</p>
+                    <ol type="a">
+                        <li>Перша</li>
+                        <li>Друга</li>
+                        <li>Третя</li>
+                        <li>Четверта</li>
+                    </ol>
+                </li>
+                <li>
+                    <p> Яке ФІО лектора?</p>
+                    <ol type="a">
+                        <li>Журило О.Д.</li>
+                        <li>Іващенко Г.С.</li>
+                        <li>Коробкіна Т.В.</li>
+                        <li>Міхаль О.П.</li>
+                    </ol>
+                </li>
+            </ol>
+        </section>
+        <p></p>
+        <section>
+          <h2>Таблиця з данними про успішність</h2>
+          <table>
+            <thead>
+                <tr>
+                    <th>Ім'я студента</th>
+                    <th>СПЗ</th>
+                    <th>АК</th>
+                    <th>Інтернет-технології</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Студент 1</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>Студент 2</td>
+                    <td>88</td>
+                    <td>90</td>
+                    <td>87</td>
+                </tr>
+                <tr>
+                    <td>Студент 3</td>
+                    <td>95</td>
+                    <td>91</td>
+                    <td>89</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+        <p></p>
+        <h2>Форма реєстрації</h2>
+        <form action="/submit" method="post">
+            <label for="firstName">Ім'я:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+        
+            <label for="lastName">Прізвище:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+        
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required><br>
+        
+            <label for="confirmPassword">Підтвердження паролю:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+        
+            <input type="submit" value="Зареєструватися">
+        </form>
+    </main>
+<a href="https://nure.ua/" target="_blank">
+    <img src="logo.png" alt="Університетський банер">
+</a>
+
+</body>
+</html>
